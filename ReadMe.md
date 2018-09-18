@@ -1,4 +1,9 @@
-# vue-parcel-starter
+<center>
+<h1>vue-parcel-starter</h1>
+  <a href="https://travis-ci.org/edm00se/vue-parcel-starter">
+    <img alt="build status" src="https://travis-ci.org/edm00se/vue-parcel-starter.svg?branch=master">
+  </a>
+</center>
 
 This is a simple starter file for [vue.js][vue] with [parcel][parcel]. I love both vue.js and parcel, so having a base starter to use just makes sense.
 
