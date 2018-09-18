@@ -1,14 +1,19 @@
 
 <template lang="html">
   <div id="app">
-    <h1>Hello Parcel 📦 🚀</h1>
+    <h1>{{ msg }}</h1>
     <h2>from vue.js!</h2>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'app'
+  name: 'app',
+  data() {
+    return {
+      msg: 'Hello Parcel 📦 🚀'
+    };
+  }
 }
 </script>
 
