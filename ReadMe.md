@@ -10,7 +10,9 @@ This is a simple starter file for [vue.js][vue] with [parcel][parcel]. I love bo
 
 ## Usage
 
-- `npm start`
+- `npm run dev` gives you a development server with hot reloading
+- `npm run build` creates a production ready build
+- `npm test` runs test suites
 
 ## Contributing
 
@@ -27,6 +29,7 @@ This is based heavily upon the example of parcel with vue.js from the [parcel ex
 ## Unique Features (So Far)
 
 - sass/scss support
+- testing via [jest][jest]
 
 ## Credits
 
@@ -42,3 +45,4 @@ MIT
 [parcel]: https://parceljs.org/
 [parcel-examples]: https://github.com/parcel-bundler/examples
 [parcel-examples-vue]: https://github.com/parcel-bundler/examples/tree/master/Vue
+[jest]: https://jestjs.io/
