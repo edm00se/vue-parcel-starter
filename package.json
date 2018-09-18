@@ -1,0 +1,40 @@
+{
+  "name": "vue-parcel-starter",
+  "version": "1.0.0",
+  "description": "a simple vue.js starter with parcel",
+  "main": "src/main.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --public-url .",
+    "build:ci": "parcel build ./src/index.html --public-url . --log-level 2",
+    "deploy": "npm run build && gh-pages -d dist",
+    "deploy:ci": "npm run build:ci && gh-pages --repo https://$GH_TOKEN@github.com/edm00se/vue-parcel-starter.git -d dist -t",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue.js",
+    "parcel",
+    "vue",
+    "parcel-bundler"
+  ],
+  "author": {
+    "name": "Eric McCormick",
+    "url": "https://edm00se.codes"
+  },
+  "repository": "edm00se/vue-parcel-starter",
+  "homepage": "https://github.com/edm00se/vue-parcel-starter",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.5.17"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^2.2.0",
+    "gh-pages": "^2.0.0",
+    "node-sass": "^4.9.3",
+    "parcel-bundler": "^1.9.7",
+    "rimraf": "^2.6.2",
+    "vue-hot-reload-api": "^2.3.0",
+    "vue-template-compiler": "^2.5.17"
+  }
+}
