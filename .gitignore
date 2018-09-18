@@ -1,4 +1,4 @@
 node_modules
 .cache
 dist
-tests/coverage
+config/tests/coverage

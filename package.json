@@ -10,7 +10,8 @@
     "build:ci": "parcel build ./src/index.html --public-url . --log-level 2",
     "deploy": "npm run build && gh-pages -d dist",
     "deploy:ci": "npm run build:ci && gh-pages --repo https://$GH_TOKEN@github.com/edm00se/vue-parcel-starter.git -d dist -t",
-    "test": "jest --config tests/jest.conf.js --coverage"
+    "test": "jest --config config/tests/jest.conf.js --coverage",
+    "test:watch": "jest --config config/tests/jest.conf.js --coverage --watch"
   },
   "keywords": [
     "vue.js",
