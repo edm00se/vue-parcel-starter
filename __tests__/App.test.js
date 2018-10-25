@@ -8,12 +8,14 @@ describe('Test suite for App Component', () => {
     cmp = Vue.extend(App) // Create a copy of the original component
     vm = new cmp({
       data: { // Replace data value with this fake data
-        msg: ['Cat']
+        title: 'Cats',
+        subtitle: 'and Dogs... living together'
       }
     }).$mount() // Instances and mounts the component
   })
 
-  it('equals messages to ["Cat"]', () => {
-    expect(vm.msg).toEqual(['Cat'])
+  it('equals messages to "Cats" and "Dogs...living together"', () => {
+    expect(vm.title).toEqual('Cats');
+    expect(vm.subtitle).toEqual('and Dogs... living together');
   })
 });
