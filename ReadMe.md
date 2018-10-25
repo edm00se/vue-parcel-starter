@@ -7,6 +7,9 @@
 
 This is a simple starter file for [vue.js][vue] with [parcel][parcel]. I love both vue.js and parcel, so having a base starter to use just makes sense.
 
+Alternatively, you can just load up this starter at [its corresponding codesandbox url][codesandbox-link]:
+https://codesandbox.io/s/github/edm00se/vue-parcel-starter
+
 ## Installation
 
 - `git clone `
@@ -51,3 +54,4 @@ MIT
 [parcel-examples]: https://github.com/parcel-bundler/examples
 [parcel-examples-vue]: https://github.com/parcel-bundler/examples/tree/master/Vue
 [jest]: https://jestjs.io/
+[codesandbox-link]: https://codesandbox.io/s/github/edm00se/vue-parcel-starter
