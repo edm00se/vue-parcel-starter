@@ -4,8 +4,13 @@ cache:
     - "node_modules"
 node_js:
   - lts/*
-branches:
-  only: master
 script:
   - npm test
-  - npm run deploy:ci
+deploy:
+  provider: pages
+  local-dir: dist
+  skip-cleanup: true
+  github-token: $GH_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  on:
+    branch: master

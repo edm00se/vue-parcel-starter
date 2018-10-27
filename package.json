@@ -8,8 +8,6 @@
     "dev": "parcel ./src/index.html",
     "build": "parcel build ./src/index.html --public-url .",
     "build:ci": "parcel build ./src/index.html --public-url . --log-level 2",
-    "deploy": "npm run build && gh-pages -d dist",
-    "deploy:ci": "npm run build:ci && gh-pages --repo https://$GH_TOKEN@github.com/edm00se/vue-parcel-starter.git -d dist -t",
     "test": "jest --config config/tests/jest.conf.js --coverage",
     "test:watch": "jest --config config/tests/jest.conf.js --coverage --watch"
   },
@@ -38,7 +36,6 @@
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
     "babel-plugin-transform-vue-jsx": "^3.7.0",
     "babel-preset-env": "1.7.0",
-    "gh-pages": "2.0.1",
     "jest": "^23.6.0",
     "jest-serializer-vue": "^2.0.2",
     "jsdom": "12.2.0",
