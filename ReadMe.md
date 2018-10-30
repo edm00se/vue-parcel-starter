@@ -10,6 +10,15 @@ This is a simple starter file for [vue.js][vue] with [parcel][parcel]. I love bo
 Alternatively, you can just load up this starter at [its corresponding codesandbox url][codesandbox-link]:
 https://codesandbox.io/s/github/edm00se/vue-parcel-starter
 
+## Features
+
+- [vue.js](https://npm.im/vue) with SFCs (single file components)
+- [parcel](https://npm.im/parcel-bundler) for bundling and dev server
+- [jest](https://npm.im/jest) for unit tests
+- [vs code jest config](.vscode/launch.json) for debugging with tests
+- [prettier](https://npm.im/prettier) for formatting
+- [travis ci config](.travis.yml) for deploy via [GitHub Pages](https://pages.github.com/)
+
 ## Installation
 
 - `git clone `
