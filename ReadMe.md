@@ -61,6 +61,6 @@ MIT
 [vue]: https://vuejs.org/
 [parcel]: https://parceljs.org/
 [parcel-examples]: https://github.com/parcel-bundler/examples
-[parcel-examples-vue]: https://github.com/parcel-bundler/examples/tree/master/Vue
+[parcel-examples-vue]: https://github.com/parcel-bundler/examples/tree/master/vue
 [jest]: https://jestjs.io/
 [codesandbox-link]: https://codesandbox.io/s/github/edm00se/vue-parcel-starter
