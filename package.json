@@ -26,29 +26,30 @@
   "homepage": "https://github.com/edm00se/vue-parcel-starter",
   "license": "MIT",
   "dependencies": {
-    "vue": "^2.5.17"
+    "vue": "^2.5.21"
   },
   "devDependencies": {
-    "@babel/core": "^7.1.2",
-    "@vue/component-compiler-utils": "^2.3.0",
+    "@babel/core": "^7.2.2",
+    "@vue/component-compiler-utils": "^2.5.0",
+    "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^23.6.0",
-    "babel-loader": "^8.0.4",
+    "babel-loader": "^8.0.5",
     "babel-plugin-syntax-jsx": "^6.18.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
-    "babel-plugin-transform-vue-jsx": "^3.7.0",
+    "babel-plugin-transform-vue-jsx": "^4.0.1",
     "babel-preset-env": "^1.7.0",
-    "husky": "1.1.3",
+    "husky": "^1.3.1",
     "jest": "^23.6.0",
     "jest-serializer-vue": "^2.0.2",
-    "lint-staged": "8.0.4",
-    "node-sass": "^4.9.4",
-    "parcel-bundler": "^1.10.3",
-    "prettier": "^1.14.3",
-    "rimraf": "^2.6.2",
+    "lint-staged": "^8.1.0",
+    "node-sass": "^4.11.0",
+    "parcel-bundler": "^1.11.0",
+    "prettier": "^1.15.3",
+    "rimraf": "^2.6.3",
     "vue-hot-reload-api": "^2.3.1",
-    "vue-jest": "^3.0.0",
-    "vue-server-renderer": "^2.5.17",
-    "vue-template-compiler": "^2.5.17"
+    "vue-jest": "^3.0.2",
+    "vue-server-renderer": "^2.5.21",
+    "vue-template-compiler": "^2.5.21"
   },
   "husky": {
     "hooks": {
