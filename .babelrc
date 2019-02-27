@@ -1,10 +1,13 @@
 {
   "presets": [
-    ["env", { "modules": false }]
+    ["@babel/preset-env", { "modules": false }]
   ],
   "env": {
     "test": {
-      "plugins": ["transform-vue-jsx", "transform-es2015-modules-commonjs"]
+      "plugins": [
+	"@vue/babel-plugin-transform-vue-jsx",
+	"@babel/plugin-transform-modules-commonjs"
+      ]
     }
   }
 }
