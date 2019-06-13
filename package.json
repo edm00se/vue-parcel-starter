@@ -39,7 +39,7 @@
     "babel-jest": "^24.7.1",
     "babel-loader": "^8.0.5",
     "husky": "2.1.0",
-    "jest": "^24.7.1",
+    "jest": "^24.8.0",
     "jest-serializer-vue": "^2.0.2",
     "lint-staged": "^8.1.5",
     "parcel-bundler": "^1.12.3",
