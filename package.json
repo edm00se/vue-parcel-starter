@@ -31,7 +31,7 @@
   "devDependencies": {
     "@babel/core": "^7.4.3",
     "@babel/plugin-transform-modules-commonjs": "^7.4.3",
-    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-env": "^7.4.5",
     "@vue/babel-helper-vue-jsx-merge-props": "^1.0.0-beta.3",
     "@vue/babel-plugin-transform-vue-jsx": "^1.0.0-beta.3",
     "@vue/component-compiler-utils": "3.0.0",
