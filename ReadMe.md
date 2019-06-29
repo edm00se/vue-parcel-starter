@@ -48,6 +48,10 @@ This is based heavily upon the example of parcel with vue.js from the [parcel ex
 - sass/scss support
 - testing via [jest][jest]
 
+## Related
+
+- [edm00se/create-vue-parcel][npm-init] an npm initializer (can be used to scaffold a copy of this starter with either `npm init` or `npx`)
+
 ## Credits
 
 - [parcel-bundler/examples/Vue][parcel-examples-vue], upon which this is based.
@@ -64,3 +68,4 @@ MIT
 [parcel-examples-vue]: https://github.com/parcel-bundler/examples/tree/master/vue
 [jest]: https://jestjs.io/
 [codesandbox-link]: https://codesandbox.io/s/github/edm00se/vue-parcel-starter
+[npm-init]: https://github.com/edm00se/create-vue-parcel
