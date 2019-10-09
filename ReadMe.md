@@ -1,7 +1,10 @@
 <center>
 <h1>vue-parcel-starter</h1>
   <a href="https://travis-ci.org/edm00se/vue-parcel-starter">
-    <img alt="build status" src="https://travis-ci.org/edm00se/vue-parcel-starter.svg?branch=master">
+    <img alt="build and deploy status" src="https://travis-ci.org/edm00se/vue-parcel-starter.svg?branch=master">
+  </a>
+  <a href="https://github.com/edm00se/vue-parcel-starter/actions?workflow=Node+CI">
+    <img alt="npm test status" src="https://github.com/edm00se/vue-parcel-starter/workflows/Node%20CI/badge.svg">
   </a>
 </center>
 
