@@ -53,13 +53,13 @@ This is based heavily upon the example of parcel with vue.js from the [parcel ex
 
 ## Related
 
-- [edm00se/create-vue-parcel][npm-init] an npm initializer (can be used to scaffold a copy of this starter with either `npm init` or `npx`)
+- [edm00se/create-vue-parcel][npm-init] an npm initializer
 
 ## Credits
 
-- [parcel-bundler/examples/Vue][parcel-examples-vue], upon which this is based.
-- [vue.js][vue]
 - [parcel][parcel]
+- [vue.js][vue]
+- [parcel-bundler/examples/Vue][parcel-examples-vue], upon which this is based
 
 ## License
 
