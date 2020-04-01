@@ -44,7 +44,7 @@
     "jest-serializer-vue": "^2.0.2",
     "lint-staged": "^10.0.8",
     "parcel-bundler": "^1.12.4",
-    "prettier": "^1.19.1",
+    "prettier": "^2.0.2",
     "rimraf": "^3.0.2",
     "sass": "^1.26.2",
     "vue-hot-reload-api": "^2.3.4",
