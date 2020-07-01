@@ -42,7 +42,7 @@
     "husky": "^4.2.5",
     "jest": "^26.0.1",
     "jest-serializer-vue": "^2.0.2",
-    "lint-staged": "^10.2.7",
+    "lint-staged": "^10.2.11",
     "parcel-bundler": "^1.12.4",
     "prettier": "^2.0.5",
     "rimraf": "^3.0.2",
