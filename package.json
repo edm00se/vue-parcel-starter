@@ -27,7 +27,7 @@
   "homepage": "https://github.com/edm00se/vue-parcel-starter",
   "license": "MIT",
   "dependencies": {
-    "vue": "^2.6.11"
+    "vue": "^2.6.12"
   },
   "devDependencies": {
     "@babel/core": "^7.11.0",
@@ -50,7 +50,7 @@
     "vue-hot-reload-api": "^2.3.4",
     "vue-jest": "^3.0.6",
     "vue-server-renderer": "^2.6.11",
-    "vue-template-compiler": "^2.6.11"
+    "vue-template-compiler": "^2.6.12"
   },
   "husky": {
     "hooks": {
