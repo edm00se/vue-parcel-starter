@@ -48,7 +48,7 @@
     "rimraf": "^3.0.2",
     "sass": "^1.26.10",
     "vue-hot-reload-api": "^2.3.4",
-    "vue-jest": "^3.0.6",
+    "vue-jest": "^3.0.7",
     "vue-server-renderer": "^2.6.12",
     "vue-template-compiler": "^2.6.12"
   },
