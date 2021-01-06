@@ -24,9 +24,13 @@ https://codesandbox.io/s/github/edm00se/vue-parcel-starter
 
 ## Installation
 
-- `git clone `
-- `cd vue-parcel-starter`
+- `npx degit edm00se/vue-parcel-starter my-app`
+- `cd my-app`
 - `npm install`
+
+### GitHub Template
+
+This repository is hosted on GitHub, in which it is marked as a "template". Clicking the big green "Use this template" button from [this repo's homepage](https://github.com/edm00se/vue-parcel-starter).
 
 ## Usage
 
