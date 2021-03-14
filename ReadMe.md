@@ -1,7 +1,7 @@
 <center>
 <h1>vue-parcel-starter</h1>
-  <a href="https://github.com/edm00se/vue-parcel-starter/actions?query=workflow%3A%22Deploy+to+GitHub+Pages%22+branch%3Amaster">
-    <img alt="build and deploy status" src="https://github.com/edm00se/vue-parcel-starter/workflows/Deploy%20to%20GitHub%20Pages/badge.svg?branch=master">
+  <a href="https://github.com/edm00se/vue-parcel-starter/actions?query=workflow%3A%22Deploy+to+GitHub+Pages%22+branch%3Amain">
+    <img alt="build and deploy status" src="https://github.com/edm00se/vue-parcel-starter/workflows/Deploy%20to%20GitHub%20Pages/badge.svg?branch=main">
   </a>
   <a href="https://github.com/edm00se/vue-parcel-starter/actions?workflow=Node+CI">
     <img alt="npm test status" src="https://github.com/edm00se/vue-parcel-starter/workflows/Node%20CI/badge.svg">
