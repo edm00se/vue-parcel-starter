@@ -30,7 +30,7 @@
     "vue": "^2.6.12"
   },
   "devDependencies": {
-    "@babel/core": "^7.14.0",
+    "@babel/core": "^7.14.3",
     "@babel/plugin-transform-modules-commonjs": "^7.13.8",
     "@babel/preset-env": "^7.14.0",
     "@vue/babel-helper-vue-jsx-merge-props": "^1.2.1",
