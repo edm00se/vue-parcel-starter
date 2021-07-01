@@ -1,0 +1,15 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: monthly
+    time: "11:00"
+  open-pull-requests-limit: 99
+  ignore:
+  - dependency-name: "@babel/preset-env"
+    versions:
+    - "> 7.13.8, < 7.14"
+  - dependency-name: lint-staged
+    versions:
+    - 10.5.4
