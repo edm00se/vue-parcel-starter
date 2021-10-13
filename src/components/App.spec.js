@@ -2,19 +2,21 @@ import { mount } from '@vue/test-utils';
 import App from './App.vue';
 
 describe('Test suite for App Component', () => {
-  let vm;
+  let app;
   beforeEach(() => {
-    vm = mount(App, {
-      data: { // Replace data value with this fake data
-        title: 'Cats',
-        subtitle: 'and Dogs... living together'
+    app = mount(App, {
+      data() {
+        return {
+          title: 'Cats',
+          subtitle: 'and Dogs... living together'
+        };
       }
     });
   });
 
   it('equals messages to "Cats" and "Dogs...living together"', () => {
-    expect(vm.title).toEqual('Cats');
-    expect(vm.subtitle).toEqual('and Dogs... living together');
+    console.log(app);
+    expect(app.componentVM.title).toEqual('Cats');
+    expect(app.componentVM.subtitle).toEqual('and Dogs... living together');
   });
-
 });
