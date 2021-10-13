@@ -20,7 +20,7 @@ jobs:
       run: |
         npm ci
         npm t
-        npm run build:ci
+        npm run build -- --log-level error
         touch dist/.nojekyll
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3

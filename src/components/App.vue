@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
   <div class="wrapper">
     <div class="content">
       <h1 v-html="title"></h1>
