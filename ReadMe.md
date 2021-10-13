@@ -8,7 +8,7 @@
   </a>
 </center>
 
-This is a simple starter file for [vue.js][vue] with [parcel][parcel]. I love both vue.js and parcel, so having a base starter to use just makes sense.
+This is a simple starter file for [vue.js 3][vue] with [parcel v2][parcel]. I love both vue.js and parcel, so having a base starter to use just makes sense.
 
 Alternatively, you can just load up this starter at [its corresponding codesandbox url][codesandbox-link]:
 https://codesandbox.io/s/github/edm00se/vue-parcel-starter
