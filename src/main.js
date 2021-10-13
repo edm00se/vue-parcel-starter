@@ -1,7 +1,5 @@
-import Vue from 'vue';
+import { createApp } from 'vue';
 import App from './components/App.vue';
 
-new Vue({
-  el: '#app',
-  render: r => r(App)
-});
+const app = createApp(App);
+app.mount("#app");

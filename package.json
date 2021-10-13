@@ -2,7 +2,6 @@
   "name": "vue-parcel-starter",
   "version": "1.0.0",
   "description": "a simple vue.js starter with parcel",
-  "main": "src/main.js",
   "scripts": {
     "clean": "rimraf dist",
     "dev": "parcel ./src/index.html",
@@ -13,11 +12,12 @@
     "test:coverage": "jest --coverage",
     "test:watch": "jest --coverage --watch"
   },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "keywords": [
     "vue.js",
     "parcel",
     "vue",
-    "parcel-bundler"
+    "parcel"
   ],
   "author": {
     "name": "Eric McCormick",
@@ -27,30 +27,23 @@
   "homepage": "https://github.com/edm00se/vue-parcel-starter",
   "license": "MIT",
   "dependencies": {
-    "vue": "^2.6.14"
+    "vue": "^3.2.20"
   },
   "devDependencies": {
-    "@babel/core": "^7.15.5",
-    "@babel/plugin-transform-modules-commonjs": "^7.15.4",
-    "@babel/preset-env": "^7.15.6",
-    "@vue/babel-helper-vue-jsx-merge-props": "^1.2.1",
-    "@vue/babel-plugin-transform-vue-jsx": "^1.2.1",
-    "@vue/component-compiler-utils": "^3.2.2",
-    "babel-core": "^7.0.0-bridge.0",
-    "babel-jest": "^27.2.4",
-    "babel-loader": "^8.2.2",
+    "@babel/preset-env": "^7.15.8",
+    "@parcel/transformer-vue": "^2.0.0",
+    "@vue/compiler-sfc": "^3.2.20",
+    "@vue/test-utils": "^2.0.0-rc.16",
+    "@vue/vue3-jest": "^27.0.0-alpha.1",
+    "babel-jest": "^27.2.5",
     "husky": "^7.0.2",
-    "jest": "^27.2.4",
-    "jest-serializer-vue": "^2.0.2",
+    "jest": "^27.2.5",
     "lint-staged": "^11.1.2",
-    "parcel-bundler": "^1.12.5",
+    "parcel": "^2.0.0",
     "prettier": "^2.4.1",
     "rimraf": "^3.0.2",
     "sass": "^1.42.1",
-    "vue-hot-reload-api": "^2.3.4",
-    "vue-jest": "^3.0.7",
-    "vue-server-renderer": "^2.6.14",
-    "vue-template-compiler": "^2.6.14"
+    "vue-loader": "^16.8.1"
   },
   "husky": {
     "hooks": {
