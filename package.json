@@ -7,7 +7,6 @@
     "dev": "parcel ./src/index.html",
     "format": "prettier --write \"src/**/*.{vue,js}\"",
     "build": "parcel build ./src/index.html --public-url .",
-    "build:ci": "parcel build ./src/index.html --public-url . --log-level error",
     "test": "jest"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
