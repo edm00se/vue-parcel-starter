@@ -31,7 +31,7 @@
     "@parcel/transformer-vue": "^2.0.0",
     "@vue/compiler-sfc": "^3.2.20",
     "@vue/test-utils": "^2.0.0-rc.16",
-    "@vue/vue3-jest": "^27.0.0-alpha.1",
+    "@vue/vue3-jest": "^27.0.0-alpha.3",
     "babel-jest": "^27.2.5",
     "husky": "^7.0.2",
     "jest": "^27.2.5",
