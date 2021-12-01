@@ -30,7 +30,7 @@
     "@babel/preset-env": "^7.16.0",
     "@parcel/transformer-vue": "^2.0.0",
     "@vue/compiler-sfc": "^3.2.20",
-    "@vue/test-utils": "^2.0.0-rc.16",
+    "@vue/test-utils": "^2.0.0-rc.17",
     "@vue/vue3-jest": "^27.0.0-alpha.3",
     "babel-jest": "^27.3.1",
     "husky": "^7.0.4",
