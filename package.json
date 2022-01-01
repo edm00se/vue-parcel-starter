@@ -29,7 +29,7 @@
   "devDependencies": {
     "@babel/preset-env": "^7.16.4",
     "@parcel/transformer-vue": "^2.0.1",
-    "@vue/compiler-sfc": "^3.2.23",
+    "@vue/compiler-sfc": "^3.2.26",
     "@vue/test-utils": "^2.0.0-rc.17",
     "@vue/vue3-jest": "^27.0.0-alpha.4",
     "babel-jest": "^27.4.2",
