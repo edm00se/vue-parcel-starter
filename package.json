@@ -24,7 +24,7 @@
   "homepage": "https://github.com/edm00se/vue-parcel-starter",
   "license": "MIT",
   "dependencies": {
-    "vue": "^3.2.23"
+    "vue": "^3.2.26"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.16.4",
