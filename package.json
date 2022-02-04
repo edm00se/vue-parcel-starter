@@ -24,22 +24,22 @@
   "homepage": "https://github.com/edm00se/vue-parcel-starter",
   "license": "MIT",
   "dependencies": {
-    "vue": "^3.2.26"
+    "vue": "^3.2.29"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.16.7",
-    "@parcel/transformer-vue": "^2.0.1",
-    "@vue/compiler-sfc": "^3.2.23",
+    "@babel/preset-env": "^7.16.11",
+    "@parcel/transformer-vue": "^2.2.1",
+    "@vue/compiler-sfc": "^3.2.29",
     "@vue/test-utils": "^2.0.0-rc.18",
     "@vue/vue3-jest": "^27.0.0-alpha.4",
-    "babel-jest": "^27.4.5",
+    "babel-jest": "^27.4.6",
     "husky": "^7.0.4",
-    "jest": "^27.4.5",
-    "lint-staged": "^12.1.5",
-    "parcel": "^2.0.1",
+    "jest": "^27.4.7",
+    "lint-staged": "^12.3.2",
+    "parcel": "^2.2.1",
     "prettier": "^2.5.1",
     "rimraf": "^3.0.2",
-    "sass": "^1.45.2",
+    "sass": "^1.49.4",
     "vue-loader": "^17.0.0"
   },
   "husky": {
