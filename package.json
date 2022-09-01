@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@babel/preset-env": "^7.18.9",
-    "@parcel/transformer-vue": "^2.6.2",
+    "@parcel/transformer-vue": "^2.7.0",
     "@vue/compiler-sfc": "^3.2.37",
     "@vue/test-utils": "^2.0.2",
     "@vue/vue3-jest": "^27.0.0",
