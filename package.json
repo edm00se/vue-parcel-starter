@@ -27,8 +27,8 @@
     "vue": "^3.2.38"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.18.9",
-    "@parcel/transformer-vue": "^2.6.2",
+    "@babel/preset-env": "^7.18.10",
+    "@parcel/transformer-vue": "^2.7.0",
     "@vue/compiler-sfc": "^3.2.37",
     "@vue/test-utils": "^2.0.2",
     "@vue/vue3-jest": "^27.0.0",
@@ -36,10 +36,10 @@
     "husky": "^8.0.1",
     "jest": "^27.5.1",
     "lint-staged": "^13.0.3",
-    "parcel": "^2.6.2",
+    "parcel": "^2.7.0",
     "prettier": "^2.7.1",
     "rimraf": "^3.0.2",
-    "sass": "^1.54.0",
+    "sass": "^1.54.8",
     "vue-loader": "^17.0.0"
   },
   "husky": {
