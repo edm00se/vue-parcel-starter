@@ -1,0 +1,56 @@
+{
+  "name": "vue-parcel-starter",
+  "version": "2.0.0",
+  "description": "a simple vue.js starter with parcel",
+  "scripts": {
+    "clean": "rimraf dist",
+    "dev": "parcel ./src/index.html",
+    "format": "prettier --write \"src/**/*.{vue,js}\"",
+    "build": "parcel build ./src/index.html --public-url .",
+    "test": "jest"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "keywords": [
+    "vue.js",
+    "parcel",
+    "vue",
+    "parcel"
+  ],
+  "author": {
+    "name": "Eric McCormick",
+    "url": "https://edm00se.codes"
+  },
+  "repository": "edm00se/vue-parcel-starter",
+  "homepage": "https://github.com/edm00se/vue-parcel-starter",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^3.2.40"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.19.3",
+    "@parcel/transformer-vue": "^2.7.0",
+    "@vue/compiler-sfc": "^3.2.40",
+    "@vue/test-utils": "^2.1.0",
+    "@vue/vue3-jest": "^27.0.0",
+    "babel-jest": "^27.5.1",
+    "husky": "^8.0.1",
+    "jest": "^27.5.1",
+    "lint-staged": "^13.0.3",
+    "parcel": "^2.7.0",
+    "prettier": "^2.7.1",
+    "rimraf": "^3.0.2",
+    "sass": "^1.55.0",
+    "vue-loader": "^17.0.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": ""
+    }
+  },
+  "lint-staged": {
+    "*.{js,json,vue}": [
+      "prettier --write"
+    ]
+  }
+}
