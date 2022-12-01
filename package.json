@@ -33,7 +33,7 @@
     "@vue/test-utils": "^2.2.1",
     "@vue/vue3-jest": "^27.0.0",
     "babel-jest": "^27.5.1",
-    "husky": "^8.0.1",
+    "husky": "^8.0.2",
     "jest": "^27.5.1",
     "lint-staged": "^13.0.3",
     "parcel": "^2.7.0",
