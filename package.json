@@ -35,7 +35,7 @@
     "babel-jest": "^27.5.1",
     "husky": "^8.0.3",
     "jest": "^27.5.1",
-    "lint-staged": "^13.1.0",
+    "lint-staged": "^13.2.0",
     "parcel": "^2.8.3",
     "prettier": "^2.8.3",
     "rimraf": "^4.0.2",
