@@ -1,3 +1,9 @@
+# This Repo is Archived
+
+For details see [issue #413](https://github.com/edm00se/vue-parcel-starter/issues/413).
+
+---
+
 <center>
 <h1>vue-parcel-starter</h1>
   <a href="https://github.com/edm00se/vue-parcel-starter/actions?query=workflow%3A%22Deploy+to+GitHub+Pages%22+branch%3Amain">
